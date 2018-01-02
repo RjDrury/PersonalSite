@@ -1,215 +1,318 @@
-    body {
-        color: white;
-        background: white;
-        font-size: 1.3em;
+body {
+    color: white;
+
+
+}
+
+.cool--title{
+  font-size: 5em;
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+     0% {
+
+       color: blue;
+     }
+
+     10% {
+
+       color: #8e44ad;
+     }
+
+     20% {
+
+       color: #1abc9c;
+     }
+
+     30% {
+
+       color: #d35400;
+     }
+
+     40% {
+
+       color: blue;
+     }
+
+     50% {
+
+       color: #34495e;
+     }
+
+     60% {
+
+       color: blue;
+     }
+
+     70% {
+
+       color: #2980b9;
+     }
+     80% {
+
+       color: #f1c40f;
+     }
+
+     90% {
+
+       color: #2980b9;
+     }
+
+     100% {
+
+       color: pink;
+     }
+   }
+
+.meimg {
+    border: 5px solid white;
+
+    margin: 1em;
+}
+
+#home {
+    background: linear-gradient(42deg, #1a7ab9, #7a7a7a, #1a7ab9);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 11s ease infinite;
+    -moz-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 96% 0%
     }
-    
-    .container {}
-    
-    .meimg {
-        border: 5px solid white;
-        float: none;
-        margin: 1em;
+    50% {
+        background-position: 5% 100%
     }
-    
-    #home {
-        background: url(/PersonalSite/img/blueblack2.jpg) center 0px;
-        background-repeat: no-repeat;
-        background-size: cover;
+    100% {
+        background-position: 96% 0%
     }
-    
-    .header {
-        padding: 4em;
-        position: relative;
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 96% 0%
     }
-    
-    .header-right {
-        padding-left: 3em;
-        width: 66.66666%;
+    50% {
+        background-position: 5% 100%
     }
-    
-    #info {
-        border-top-style: solid;
-        border-top-color: white;
+    100% {
+        background-position: 96% 0%
     }
-    
-    td {
-        padding: 0 15ch 0 15ch;
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 96% 0%
     }
-    
-    td,
-    th {
-        padding-top: 1ch;
-        padding-bottom: 2ch;
+    50% {
+        background-position: 5% 100%
     }
-    
-    th {
-        text-transform: capitalize;
-        font-weight: bold;
+    100% {
+        background-position: 96% 0%
     }
-    
-    ul,
-    li {
-        float: none;
-    }
-    
-    .title {
-        padding-top: 1.5em;
-        color: #1a7ab9;
-    }
-    
-    .titletwo {
-        padding-top: 1.5em;
-        color: white;
-    }
-    
-    .divider hr {
-        color: #0C5258;
-        border: 1.5px #1a7ab9 solid;
-        margin-bottom: 2em;
-    }
-    
-    .divider {
-        width: inherit;
-        text-align: center;
-    }
-    
-    .divider hr {
-        margin-left: auto;
-        margin-right: auto;
-        width: 45%;
-    }
-    
-    .left {
-        float: left;
-    }
-    
-    .right {
-        float: right;
-    }
-    
-    .star-rob {
-        padding-top: .5em;
-        font-size: 150%;
-        color: #1a7ab9;
-    }
-    
-    .about {
-        color: black;
-        padding-bottom: 4em;
-    }
-    
-    .info-text a {
-        color: #1a7ab9;
-    }
-    
-    #portfolio {
-        background-color: #1a7ab9;
-        color: white;
-    }
-    
-    #portfolio hr {
-        border: 1.5px white solid;
-    }
-    
-    .book-rob {
-        padding-top: .5em;
-        font-size: 150%;
-        color: white;
-    }
-    
-    .portfolio-item {
-        padding: 2.35em;
-    }
-    
-    .twoinfo {
-        color: white;
-    }
-    
-    .body-shoes {
-        background-image: url(/PersonalSite/img/portfolio/bluesshoesiconblack.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 350px;
-    }
-    
-    .body-brain {
-        background-image: url(/PersonalSite/img/portfolio/noname.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 350px;
-    }
-    
-    .body-tictactoe {
-        background-image: url(/PersonalSite/img/portfolio/tictacpaddywack.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 350px;
-    }
-    
-    .body-basicphrases {
-        background-image: url(/PersonalSite/img/portfolio/translatorGlobal.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 350px;
-    }
-    
-    .card {
-        margin: 1em;
-        border: none !important;
-        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
-    }
-    
-    .card-body {}
-    
-    .bottomcardrow {
-        padding-bottom: 2em;
-    }
-    
-    .card-writing {
-        color: white;
-        margin-top: auto !important;
-        padding-left: 5px;
-        font-weight: bold;
-        font-family: Courier;
-    }
-    
-    .card-writingtwo {
-        color: black;
-        margin-top: auto !important;
-        padding-left: 5px;
-        font-weight: bold;
-        font-family: Courier;
-    }
-    
-    .robmodal {
-        color: black;
-    }
-    
-    .modal-image {
-        width: 100%;
-        padding-bottom: 1em;
-    }
-    
-    .modal-title {
-        color: #1a7ab9;
-        font-size: 120%
-    }
-    
-    .modal-subhead {
-        color: #1a7ab9;
-        font-size: 105%;
-    }
-    
-    .what {
-        font-size: 75%;
-    }
-    
-    .card-img-overlay {
-        padding: 0 !important;
-        background-size: cover;
-    }
-    
-    a:hover {
-        opacity: .5;
-    }
+}
+
+.header {
+    padding: 2em;
+    position: relative;
+}
+
+.header-right {
+    padding-left: 3em;
+    width: 66.66666%;
+}
+
+#info {
+    border-top-style: solid;
+    border-top-color: white;
+}
+
+td {
+    padding: 0 15ch 0 15ch;
+}
+
+td,
+th {
+    padding-top: 1ch;
+    padding-bottom: 2ch;
+}
+
+th {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+ul,
+li {
+    float: none;
+}
+
+.title {
+    padding-top: 1.5em;
+    color: #1a7ab9;
+}
+
+.titletwo {
+    color: #1a7ab9;
+}
+
+.divider hr {
+    color: #0C5258;
+    border: 1.5px #1a7ab9 solid;
+    margin-bottom: 2em;
+}
+
+.divider {
+    width: inherit;
+    text-align: center;
+}
+
+.divider hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.star-rob {
+    padding-top: .5em;
+    font-size: 150%;
+    color: #1a7ab9;
+}
+
+.about {
+    color: black;
+
+    padding-bottom: 2em;
+}
+
+.info-text a {
+    color: white;
+    font-weight: 900;
+    opacity: 1;
+
+}
+
+
+
+#portfolio {
+
+    color: #003a5f;
+}
+
+#portfolio hr {
+    border: 1.5px #003a5f solid;
+}
+
+.book-rob {
+    padding-top: .5em;
+    font-size: 150%;
+    color: #1a7ab9;
+}
+
+.portfolio-item {
+    padding: 2.35em;
+}
+
+.twoinfo {
+    color: #003a5f;
+}
+
+.body-shoes {
+    background-image: url(/img/portfolio/bluesshoesiconblack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+.body-brain {
+    background-image: url(/img/portfolio/noname.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+.body-tictactoe {
+    background-image: url(/img/portfolio/tictacpaddywack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+.body-basicphrases {
+    background-image: url(/img/portfolio/translatorGlobal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+.card {
+    margin: 1em;
+    border: none !important;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.card-body {}
+
+.bottomcardrow {
+    padding-bottom: 2em;
+}
+
+.card-writing {
+    color: white;
+    margin-top: auto !important;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: Courier;
+}
+
+.card-writingtwo {
+    color: black;
+    margin-top: auto !important;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: Courier;
+}
+
+.robmodal {
+    color: black;
+}
+
+.modal-image {
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.modal-title {
+    color: #1a7ab9;
+    font-size: 120%
+}
+
+.modal-subhead {
+    color: #1a7ab9;
+    font-size: 105%;
+}
+
+.what {
+    font-size: 75%;
+}
+
+.card-img-overlay {
+    padding: 0 !important;
+    background-size: cover;
+}
+
+a:hover {
+    opacity: .5;
+}
