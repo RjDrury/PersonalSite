@@ -4,8 +4,6 @@ body {
 
 }
 
-
-
 .meimg {
     border: 3px solid white;
     height: 200px;
@@ -181,10 +179,18 @@ li {
 }
 
 .body-tictactoe {
-    background-image: url(/img/portfolio/tictacpaddywack.png);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
+}
+.ampedlogo{
+    height:100px;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+.ampedpad{
+  text-align: center;
 }
 
 .body-basicphrases {
